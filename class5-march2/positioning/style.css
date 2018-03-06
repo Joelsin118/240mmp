@@ -1,0 +1,50 @@
+/*
+div {
+    width: 80%;
+    height: 300px;
+    background-color: purple;
+    margin: 40px;
+    margin: auto;
+    padding: 40px;
+    size,
+    style,
+    color border: 10px, dashed, green;
+
+}
+*/
+
+.floating-box {
+    /*block, inline, or inline-block*/
+    width: 100px;
+    height: 75px;
+    border: 5px solid red;
+    margin: 10px;
+    display: inline-block;
+}
+
+.position-box {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    position: relative;
+    left: 40px;
+    top
+}
+
+
+.relative {
+    width: 400px;
+    height: 200px;
+    border: 5px, solid, green;
+    position: relative;
+}
+
+.absolute {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px
+}

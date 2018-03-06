@@ -1,0 +1,24 @@
+@font-face {
+    font-family: yellowtail;
+    src: url('font/Yellowtail-Regular-webfont.woff') format('woff');
+}
+
+body {
+    /* Browser is going to try to load first font, if doesnt load, on to the next font*/
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-family: monospace;
+
+    font-family: 'yellowtail', sans-serif;
+    font-size: 14px;
+    /*normal, italic, olique*/
+    font-style: oblique;
+    /*normal,bold, or number value*/
+    font-weight: 100;
+    /*letter spacing*/
+    /*line-height*/
+    text-decoration: underline;
+
+    text-indent: 40px;
+
+    /**/
+}
