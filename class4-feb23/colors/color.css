@@ -1,0 +1,26 @@
+#one {
+    width: 200px;
+    height: 200px;
+    /*    background-color: darkgreen;*/
+    background-color: hsl(150, 100%, 50%);
+    /*    background-color: rgba();*/
+}
+
+h1 {
+    color: rgba(0, 0, 225, .5);
+}
+
+body {
+    background-color: red;
+    background-image: url(), url();
+    background-blend-mode: multiply;
+    background: linear-gradient(red, yellow, blue);
+
+    background: linear-gradient(rgba(),
+    rgba(),
+    rgba(),
+    rgba()),
+    url(), url();
+
+    background-repeat: repeat
+}
