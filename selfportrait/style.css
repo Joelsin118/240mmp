@@ -1,0 +1,13 @@
+#home {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+.link {
+    font-size: 2em;
+    
+}
+
+li a {
+    color: aquamarine;
+}
