@@ -1,0 +1,6 @@
+.flex-container {
+    display: flex;
+    background-color: royalblue;
+}
+
+.flex-container > div {}

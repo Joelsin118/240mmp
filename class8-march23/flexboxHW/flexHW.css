@@ -1,0 +1,14 @@
+.container {
+    background: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: gray;
+    flex-basis: 150px;
+    /* flex grow and flex shrink 0 = disable, 1 = enable*/
+    flex-grow: 1;
+    height: 50px;
+    margin: 10px;
+}

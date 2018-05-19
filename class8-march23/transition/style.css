@@ -1,0 +1,56 @@
+.container {
+    width: 300vw;
+    height: 100vh;
+}
+
+
+
+.box {
+    width: 20px;
+    height: 20px;
+    transition-duration: 1s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container:hover .box {
+    width: 200px;
+}
+
+.one {
+    background: purple;
+    transition-timing-function: linear;
+}
+
+.two {
+    background: green;
+    transition-timing-function: ease-in;
+}
+
+.three {
+    background: orange;
+    transition-timing-function: ease-out;
+}
+
+.four {
+    background: yellow;
+    transition-timing-function: ease-in-out;
+}
+
+.five {
+    backface-visibility: #07BEB8;
+    transition-property: linear;
+}
+
+
+
+
+/*
+  transition-delay: 0;
+  transition-duration: 1s;
+  transition-property: background;
+  transition-timing-function: ease;
+*/
